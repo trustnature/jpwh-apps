@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+/app-model/target/
+/app-stateful-client/target/
+/app-stateful-server/target/
+/app-stateless-client/target/
+/app-stateless-server/target/
+/app-web/target/
