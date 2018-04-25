@@ -17,7 +17,9 @@ public class IntegrationTest extends Arquillian {
 
     @Deployment
     public static WebArchive getArchive() {
-        return ShrinkWrap.create(WebArchive.class, "test.war")
+        String pathU = "D:/IdeaProjects/jpwh-apps/app-web/target/test-classes/app-web.war";
+        System.out.println(pathU);
+        return ShrinkWrap.create(WebArchive.class, pathU)
 
             .addPackage(IntegrationTest.class.getPackage())
 
